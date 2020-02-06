@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="c9cb820c-7cb7-484f-830f-f280083f7062" ItemType="BusinessFlow" CreatedBy="Satvik.b" Created="202002030842" GingerVersion="3.5.0.0" Version="39" LastUpdateBy="Satvik.b" LastUpdate="202002041248" />
+<BusinessFlow Elapsed="33371" Guid="c9cb820c-7cb7-484f-830f-f280083f7062" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
+<Activities>
+<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="a8c34364-37b3-4736-a5a8-ebfdac7dbcbb" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
+<Acts>
+<ActBrowserElement Active="True" Description="Go to Url - Log in" Guid="10d4ce6e-f8d8-482b-889b-f690ade61115" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="2eab3dd2-b51e-46ce-b566-9b31a7a0a574" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="75b5273e-2d55-4bfd-b139-c0a184279721" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="7f416fec-b590-4650-8d58-ae0541e7058e" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://technovert.keka.com/" />
+<ActInputValue Guid="bab21e27-9d2e-4f5b-9e69-cf1cf6277ea9" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="348233b1-ae90-46c9-a6ab-541de9e9c486" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="0c2266b1-e8be-4c5e-a46e-d92ef50cec5f" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="5bbdae5d-eeee-44ed-95c3-1a73a3ed58c1" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+</InputValues>
+</ActBrowserElement>
+<ActUIElement Active="True" Description="Set Web Element 'provider'" Guid="85fcf1ab-9ebf-4fb5-a7bc-07b27c759a3b" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="770f4245-9961-4b6c-85dc-b549f08c8020" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByValue" />
+<ActInputValue Guid="60fbc388-026c-41e8-b4c9-c0f71b070e47" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Office365" />
+<ActInputValue Guid="b6e6381b-6227-4a7e-bcc4-0deed68c8dc6" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="bc775ac5-8509-46fc-8535-0faac2de78f4" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Click" />
+<ActInputValue Guid="0e21317d-4783-4338-b65b-830183f3db6e" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Office365" />
+<ActInputValue Guid="a0bc1a55-5416-4e10-8f5b-a3b495345f58" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="d81a852e-52ce-4b59-b2ce-fcc8c1dba8a0" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="8074041f-c7f1-4797-94b8-e18706dee4e3" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="d0b6082c-2dca-420a-ad17-3a04635037c4" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActBrowserElement Active="True" Description="Go to Url - Sign in to your account" Guid="c3eedaf7-4527-44d6-81fd-0e01d548ddb5" ImplicitWait="60" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="796a82f6-a74d-4ceb-baf8-edf2364b23eb" Param="ControlAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="GotoURL" />
+<ActInputValue Guid="f770c9cb-73fe-498a-9fd1-4f6df285effc" Param="LocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="NA" />
+<ActInputValue Guid="97fc4ce7-e895-4f1a-a6ca-b2de79dcfc6f" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="https://login.microsoftonline.com/common/oauth2/v2.0/authorize?client_id=1ce9e995-3384-4850-b559-d803f73bd66b&amp;redirect_uri=https%3A%2F%2Fapp.keka.com%2Fsignin-oidc&amp;response_type=id_token&amp;scope=openid%20profile%20email&amp;response_mode=form_post&amp;nonce=637164159262863176.YzhjODY4MzQtNmU1Zi00YTY0LTlkM2QtYjM0YTk4ZjU1MWYyN2NmMDhhY2ItYmI4Ny00Yjg0LThjNDgtMWRkMDUxMGVkMWM3&amp;state=CfDJ8Bx-3BeB7-9LrUHzEb4E_b8k4bPkckky4m_nehKnSLECBI6laeEpidXfQBTmZUFLeuDvSMOxiMF2EL_y2YEIjHhzWyrJC3Wov7WP20dqHaMfVixGr0uKVK7D90Z2qGfSaCMwhsH6JFErBZUcTizziW87x2rLf3y7MiguGKYK3nb-pVS-pLl2HMKM-IYJld-QJnnRv0_owpQLjPFhuRrCQ9LPDqM9DYh4E7VrvvOmAA9ozwqfF0ZMOVEvIOlrJ53tcmPX0RDs4izW_XlFN41pBE4-z3lfvsdWvTqImx9gXM9xAi9ODpMxBIpqT5tIfdz7FhuMj7tsNHi11BitD-PnOSn9zKKvVzkOXAXx9G8dGMxnqv7RjIxvxjadtQgM658JfgsikL2jWk-zctVkMJIfS3bB6tRMnjGhEGG6I--22apDp_sJM-HexRw9GQI7XnxqIG_GJQK-BbAHyUU2lV04H4s38quqf--CO1q8S9CPwFSXOpkKMYKqYWnftS4Z9zO54crbSVv7EFcXRvBrEjdaPX7bBG1mum_qetjeot9D7KGCOsltmuq55SmgOUtgswd6vWsTRMcnL-Nj-rEzVT0h0hmXt-OeyK2UDkUp_FYME5Or46AMYUR6ADninr2PKfTSpZC3bMH9Dv1qS_2QxKDyVwWOq2bk8r7heLCFT1-rDy3ctnepJQaMRu8oZD9uzp1qAcNY5KJwwLv98LrPQimZgVTPnTIn76z9sqrI2o18rVOTqhDkS1iWVmG39XrQVn3whXEry6DKZLkkD4EaUTnP1u2pL0gWhWfVOcG_LQ4glp9ZGoWmnLQa4YChi0u4HkFUkRb7QBa40mnDaLW7bcxi1NCbc94yWx5q8KJ2Cs9Vbddms-T2_Aiaa_68EOU56LP-QIll8ByiPjCG6z6EwbhjIONs0WYEFfu7514NWS_6L0dKxgQfoz5ICtl2seAsLzmbjhI04haiG8W1YByECPFlKk9B7qzDOa4YH9W3MqTOn5WIho1Q3FLoABOqJ3A3ySxHQI_kAXwnoE2qJrQn3qWRgGvkqFIV3L4rKQSosfvzkiiCkqh7pTjxdovA0KTuyyHczp9QIkUV9u-cGt5hSC2nbkt2UYW9bdLLTi9EXQrd3bldXGEwl6fO_0LxWYB6Pp77WmJLmrFS1IYsigbKieQzPAfIIFKVWnHDFtGDxkrJ62xE4gvl4PxZSo5G5PZJl1glYbdqmAE7Eo-tvl9JebYR9gXIdgxghLNZkkj-nFx74x6ZQVZuRMIhTdu5Z0I_2-uV7Q&amp;x-client-SKU=ID_NET&amp;x-client-ver=2.1.4.0&amp;sso_reload=true" />
+<ActInputValue Guid="0b8d8e20-06dd-4245-9e53-e8d251bd4f21" Param="GotoURLType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="0958b657-aa50-4f44-8210-87235f13b560" Param="LocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="b1c2e01f-abd0-44de-a470-f18011aabda3" Param="PomGUID" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="a5a4d71f-67ca-4ec3-b607-cad75d1263d6" Param="URLSrc" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Static" />
+</InputValues>
+</ActBrowserElement>
+<ActUIElement Active="True" Description="Set Web Element 'i0116'" Guid="b3b46d29-41d4-493c-b928-ef741fd7d455" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="32761fe3-552b-4ee5-aa51-8d4866bc75b0" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="4c29a1b3-d5a9-441f-ad83-0ece907b7d40" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="i0116" />
+<ActInputValue Guid="aff2fbb3-51c5-4aff-ba56-c593f789e2cc" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Unknown" />
+<ActInputValue Guid="86a53be3-3649-4b2b-8f5c-2305edeb6604" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="SetValue" />
+<ActInputValue Guid="634db451-1e05-4141-9365-b6e9d40e85a4" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="satvik.b@technovert.com" />
+<ActInputValue Guid="6add1eba-c522-491a-b18f-2fdf143c058f" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="a1f1ac04-7bf1-4d36-ad42-4209769d3c53" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="9e1885ed-61a0-46f7-a23b-305c0c122d22" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="19a1ba44-6c20-4eb4-bfcd-f49d16aad37d" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+<ActUIElement Active="True" Description="Set Web Element 'idSIButton9'" Guid="c80e1428-b6ad-4f02-b14b-2e5fab5d7c31" MaxNumberOfRetries="2" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="NA" RetryMechanismInterval="5" StatusConverter="None" WaitVE="0" WindowsToCapture="OnlyActiveWindow">
+<InputValues>
+<ActInputValue Guid="99e4127f-fa1b-44d0-b29d-ace7679fd7a6" Param="ElementLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" Value="ByID" />
+<ActInputValue Guid="21be777d-edd7-4929-b17f-90b13cba1335" Param="ElementLocateValue" ParentGuid="00000000-0000-0000-0000-000000000000" Value="idSIButton9" />
+<ActInputValue Guid="9e3c1818-5bc8-4cd9-b770-37826cbd60f0" Param="ElementType" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Button" />
+<ActInputValue Guid="3a82468e-51c4-425c-b41a-45cb4a5df037" Param="ElementAction" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Submit" />
+<ActInputValue Guid="be497d78-deaf-4723-9a3c-73d1ae97f34c" Param="Value" ParentGuid="00000000-0000-0000-0000-000000000000" Value="Next" />
+<ActInputValue Guid="e18255fa-d81b-460d-bcab-dc49986df99d" Param="TargetLocateBy" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="20bb5ab6-7e97-4511-bd86-3879e18c5431" Param="TargetElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="daaf3092-46cf-49a1-a8ac-11166ea60d43" Param="HandleElementType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+<ActInputValue Guid="a1ffec50-1432-4676-b01c-adc795c1fb23" Param="HandleActionType" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</InputValues>
+</ActUIElement>
+</Acts>
+</Activity>
+</Activities>
+
+<ActivitiesGroups>
+<ActivitiesGroup Guid="69f3fb51-bdff-4103-8a43-7b80f513e9da" Name="Group" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ActivitiesIdentifiers>
+<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="a8c34364-37b3-4736-a5a8-ebfdac7dbcbb" ActivityName="Activity 1" Guid="6497da5b-d901-4172-a582-0dd67210456d" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</ActivitiesIdentifiers>
+</ActivitiesGroup>
+</ActivitiesGroups>
+
+<TargetApplications>
+<TargetApplication AppName="MyWebApp" Guid="d32c2966-8646-4555-a751-c277f566c35b" LastExecutingAgentName="Satvik Chrome Agent" ParentGuid="00000000-0000-0000-0000-000000000000" />
+</TargetApplications>
+</BusinessFlow></GingerRepositoryItem>

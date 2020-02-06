@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GingerRepositoryItem><Header ItemGuid="6cc39f17-14a2-4f76-a6ef-4a89367d4eb5" ItemType="Solution" CreatedBy="Satvik.b" Created="202002030842" GingerVersion="3.5.0.0" Version="2" LastUpdateBy="Satvik.b" LastUpdate="202002030842" />
+<Solution AlmType="QC" Guid="6cc39f17-14a2-4f76-a6ef-4a89367d4eb5" Name="WebSol" ParentGuid="00000000-0000-0000-0000-000000000000">
+<ApplicationPlatforms>
+<ApplicationPlatform AppName="MyWebApp" CoreGUID="00000000-0000-0000-0000-000000000000" Guid="3fe4513e-aa97-460d-8d45-993b6f9bc63e" GUID="00000000-0000-0000-0000-000000000000" ParentGuid="00000000-0000-0000-0000-000000000000" Platform="Web" />
+</ApplicationPlatforms>
+
+<ExecutionLoggerConfigurationSetList>
+<ExecutionLoggerConfiguration ExecutionLoggerConfigurationExecResultsFolder="~\ExecutionResults" ExecutionLoggerConfigurationIsEnabled="True" ExecutionLoggerConfigurationMaximalFolderSize="250" Guid="d9fe0e4e-cd7c-4bea-a8a5-b0a40bb2527e" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" SelectedDataRepositoryMethod="TextFile" Seq="0" />
+</ExecutionLoggerConfigurationSetList>
+
+<HTMLReportsConfigurationSetList>
+<HTMLReportsConfiguration Guid="790a014f-caef-4220-84ed-e5ca49231230" HTMLReportConfigurationMaximalFolderSize="0" HTMLReportsFolder="~\HTMLReports" HTMLReportTemplatesSeq="1" IsSelected="True" ParentGuid="00000000-0000-0000-0000-000000000000" Seq="0" />
+</HTMLReportsConfigurationSetList>
+</Solution></GingerRepositoryItem>
