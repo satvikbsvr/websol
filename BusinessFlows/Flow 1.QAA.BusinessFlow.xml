@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<GingerRepositoryItem><Header ItemGuid="c9cb820c-7cb7-484f-830f-f280083f7062" ItemType="BusinessFlow" CreatedBy="Satvik.b" Created="202002030842" GingerVersion="3.5.0.0" Version="46" LastUpdateBy="Swapnika.n" LastUpdate="202002061241" />
+<GingerRepositoryItem><Header ItemGuid="c9cb820c-7cb7-484f-830f-f280083f7062" ItemType="BusinessFlow" CreatedBy="Satvik.b" Created="202002030842" GingerVersion="3.5.0.0" Version="49" LastUpdateBy="Swapnika.n" LastUpdate="202002061245" />
 <BusinessFlow Guid="c9cb820c-7cb7-484f-830f-f280083f7062" Name="Flow 1" ParentGuid="00000000-0000-0000-0000-000000000000" Source="Ginger" Status="Unknown">
 <Activities>
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="Activity 1" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="a8c34364-37b3-4736-a5a8-ebfdac7dbcbb" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="100%" TargetApplication="MyWebApp">
@@ -46,7 +46,6 @@
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="New Activity3" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="37956082-a483-4fe6-b0a5-f686eb501770" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="New Step" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="b81cd35c-944c-44b5-a73a-9a6c3b87f999" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
 <Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="New Step" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="790a80f2-0a4b-4375-9b03-216234746552" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
-<Activity ActionRunOption="StopActionsRunOnFailure" Active="True" ActivitiesGroupID="Group" ActivityName="New Step" AutomationStatus="Development" ErrorHandlerMappingType="AllAvailableHandlers" Guid="6321699e-de02-45c5-bbe4-29b1b5cdca4f" ParentGuid="00000000-0000-0000-0000-000000000000" PercentAutomated="0%" TargetApplication="MyWebApp" />
 </Activities>
 
 <ActivitiesGroups>
@@ -57,7 +56,6 @@
 <ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="37956082-a483-4fe6-b0a5-f686eb501770" ActivityName="New Activity3" Guid="546c1d0c-db78-4416-b08d-0ca5ce81baa0" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="b81cd35c-944c-44b5-a73a-9a6c3b87f999" ActivityName="New Step" Guid="30640199-f94c-4c3b-b9dd-dec3839dee91" ParentGuid="00000000-0000-0000-0000-000000000000" />
 <ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="790a80f2-0a4b-4375-9b03-216234746552" ActivityName="New Step" Guid="3a734bae-fea5-4ddd-825f-21612e0a76db" ParentGuid="00000000-0000-0000-0000-000000000000" />
-<ActivityIdentifiers ActivityAutomationStatus="Development" ActivityGuid="6321699e-de02-45c5-bbe4-29b1b5cdca4f" ActivityName="New Step" Guid="0f1ddb57-5e42-4315-87bf-eff779955847" ParentGuid="00000000-0000-0000-0000-000000000000" />
 </ActivitiesIdentifiers>
 </ActivitiesGroup>
 </ActivitiesGroups>
